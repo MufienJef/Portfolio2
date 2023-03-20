@@ -11,6 +11,7 @@ body {
     min-height: 100vh;
     align-items: center;
     display: flex;
+    background-color: black;
 }
 
 .container {
@@ -58,7 +59,7 @@ nav ul li a {
 
 h5 a {
     text-decoration: none;
-    color: #f1f1f1;
+    color: #787cb5;
     font-size: 13px;
 }
 
@@ -87,7 +88,7 @@ h1 {
 }
 
 p {
-    color: #fcfcfc;
+    color: #787cb5;
     font-size: 11px;
     line-height: 15px;
 }
@@ -128,19 +129,19 @@ button {
 }
 
 .card1 {
-    background-image: url(image/pic-1.png);
+    background-image: url(image/project-1.png);
 }
 
 .card2 {
-    background-image: url(image/pic-2.png);
+    background-image: url(image/project-1.png);
 }
 
 .card3 {
-    background-image: url(image/pic-3.png);
+    background-image: url(image/project-1.png);
 }
 
 .card4 {
-    background-image: url(image/pic-4.png);
+    background-image: url(image/project-1.png);
 }
 
 .navbar a:hover {
@@ -342,7 +343,7 @@ button {
     position: relative;
     width: 100%;
     height: 100%;
-    background-color: #787cb5;
+    background-color: #777887;
     box-shadow: -1px -1px 2px #222222, 1px 2px 2px #111111;
     border-radius: 15px;
 }
@@ -368,16 +369,16 @@ button {
     }
 }
 
-@media(max-width: 868px) {
+@media(max-width: 1068px) {
     .about_container .about_contents {
         grid-template-areas: 'imageSect imageSect' 
                                 'infoSect infoSect'
-                                'skillSect skillSect';
+                                'skillSect skillSect';                                           
     }    
 }
 
 @media(max-width: 868px) {
     .personalInfo{
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr;  
     }
 }
