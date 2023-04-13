@@ -71,11 +71,6 @@ h5 a {
 
 }
 
-.col {
-    flex-basis: 50%;
-
-}
-
 
 .box {
     padding: 0px;
@@ -111,48 +106,6 @@ button {
     cursor: pointer;
     transition: all 0.4s;
     margin-top: 20px;
-}
-
-
-.card {
-    width: 200px;
-    height: 230px;
-    display: inline-block;
-    border-radius: 10px;
-    padding: 15px 25px;
-    box-sizing: border-box;
-    cursor: pointer;
-    margin: 10px 15px;
-    background-position: center;
-    background-size: cover;
-    transition: transform 0.5s;
-}
-
-.card1 {
-    background-image: url(image/project-1.png);
-}
-
-.card2 {
-    background-image: url(image/project-1.png);
-}
-
-.card3 {
-    background-image: url(image/project-1.png);
-}
-
-.card4 {
-    background-image: url(image/project-1.png);
-}
-
-.navbar a:hover {
-    background-color: #951d1d;
-    background-size: 20px;
-
-
-}
-
-.card:hover {
-    transform: translateY(-10px)
 }
 
 @media screen and (max-width: 600px) {
@@ -393,7 +346,7 @@ button {
 }
 
 html {
-  background-color: #black;
+  background-color: black;
 }
 
 .main{
@@ -485,3 +438,60 @@ html {
     text-align: center;
 }
  
+/* Contact Form */
+
+form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .clbl {
+    margin-bottom: 10px;
+    font-weight: none;
+    color: white;
+    ;
+  }
+  
+  input,
+  textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .cbutton[type="submit"] {
+    background-color: #951d1d;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cbutton[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+  /* Section side */
+
+  .section1 {
+    height:700px ;
+    display: inline-block;
+    width: 100%;
+  }
+  .section2 {
+    height:700px ;
+    display: inline-block;
+    width: 100%;
+  }
+  .section3 {
+    height:700px ;
+    display: inline-block;
+    width: 100%;
+  }
+  .section4 {
+    height:100px ;
+    display: inline-block;
+    width: 100%;
+  }
